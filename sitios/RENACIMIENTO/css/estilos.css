@@ -1,0 +1,62 @@
+
+body,div, class, label, ul, li{float:left;margin:0; padding:0;border:none;}
+h1,h2,h3,h4,h5, p{float:left;margin:0;padding:0;border:none;}
+canvas{outline: none;}
+a{text-decoration:none;float: left;margin:0;padding:0;}
+input:focus {outline:none;}
+input{border:none;}
+*{margin:0;padding:0;}
+
+body{
+font-size:62.5%; 
+width:100%;
+height:100%;
+font-family: Helvetica,Verdana, Arial,sans-serif;
+background: #000;
+line-height:15px;
+overflow:inherit;
+}
+
+#cont{width:1000px;height:600px;background:url(../../../imagenes/imagenes2.png);position: absolute;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+
+#titulo{width:1000px;height:30px;color: #FFF;margin:20px 0px 20px 0px;}
+#titulo h1{font-size: 3em;font-weight: 600;margin: 0px 10px 0px 20px;line-height:30px;}
+#titulo h2{font-size: 2em;font-weight: 100;line-height:35px;color:#5858FA;}
+#titulo p{width:790px;height:15px;font-size:1em;font-weight:100;line-height:15px; margin:0px 0px 0px 20px;position:relative;top:525px;left:-0px;}
+
+
+#img1{width:200px;height:500px;background:url(../imagenes/renacimiento1.jpg); margin:0px 0px 0px 20px;}
+
+#bot_an{width:180px;height:480px; display: none;}
+#bot_an ul{width:50px;height:auto;list-style: none;position:relative;top:0;left:0;}
+#bot_an ul li{width:50px;height:50px;background:#F00;cursor:pointer;opacity:0.6;border-radius:50px;-moz-border-radius:50px;-webkit-border-radius:50px;position:absolute;}
+
+#bot_1{position:relative;top:400px;left:120px;}
+#bot_2{position:relative;top:200px;left:140px;}
+#bot_3{position:relative;top:160px;left:100px;}
+
+#an_todos{position:relative;top:0;left:0;}
+.an_to{background:#333;display:none;border:1px #000 solid; border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
+.an_to h3{ letter-spacing:0.08em;color:#FFF;font-size:1.5em;font-weight:100;line-height:1.3em;}
+.an_to p{color:#F7FE2E;font-size:1em;margin:15px 0px 0px 0px;}
+
+#an_1{width:350px;height:60px;padding:15px;position:absolute;top:330px;left:0px;}
+#an_2{width:370px;height:40px;padding:15px;position:absolute;top:260px;left:0px;}
+#an_3{width:350px;height:40px;padding:15px;position:absolute;top:90px;left:-30px;}
+
+
+.anali_to{background:url(../imagenes/fondo1.png);display:none;}
+.anali_to h3{ letter-spacing:0.08em;color:#FFF;font-size:1.3em;font-weight:100;line-height:1.3em;}
+.anali_to p{color:#F7FE2E;font-size:1em;margin:5px 0px 15px 0px;}
+
+#texto1{width:750px;height:500px;margin:0px 0px 0px 10px;}
+
+#anali_1{width:690px;height:440px;padding:30px;display:block;}
+#anali_3{width:690px;height:440px;padding:30px;}
+
+#bots_to{width:20px;height:20px;position: absolute;top:0;left:0;}
+#bots_to ul{width:20px;height:20px;list-style:none;position:relative;top:0;left:0;}
+#bots_to ul li{width:20px;height:20px;cursor:pointer;line-height:20px;text-align: center;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+#bots1{position:absolute;top:575px;left:880px;background:#FFF;color:#F00;}
+#bots2{position:absolute;top:575px;left:920px;background:#333;color:#FFF;}
+#bots3{position:absolute;top:575px;left:960px;background:#333;color:#FFF;}

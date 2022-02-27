@@ -1,0 +1,68 @@
+
+body,div, class, label, ul, li{float:left;margin:0; padding:0;border:none;}
+h1,h2,h3,h4,h5, p{float:left;margin:0;padding:0;border:none;}
+canvas{outline: none;}
+a{text-decoration:none;float: left;margin:0;padding:0;}
+input:focus {outline:none;}
+input{border:none;}
+*{margin:0;padding:0;}
+
+body{
+font-size:62.5%; 
+width:100%;
+height:100%;
+font-family: Helvetica,Verdana, Arial,sans-serif;
+background: #000;
+line-height:15px;
+overflow:inherit;
+}
+
+#cont{width:1000px;height:600px;background:url(../../../imagenes/imagenes2.png);position: absolute;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+
+#titulo{width: 1000px;height:30px;color: #FFF;margin:20px 0px 20px 0px;}
+#titulo h1{font-size: 3em;font-weight: 600;margin: 0px 10px 0px 20px;line-height:30px;}
+#titulo h2{font-size: 2em;font-weight: 100;line-height:35px;color:#5858FA;}
+#titulo p{width:790px;height:15px;font-size:1em;font-weight:100;line-height:15px; margin:0px 0px 0px 20px;position:relative;top:525px;left:-0px;}
+
+
+#img1{width:800px;height:480px;background:url(../imagenes/bizancio1.jpg); margin:0px 100px 0px 100px;}
+
+#bot_an{width:180px;height:480px; display: none;}
+#bot_an ul{width:50px;height:auto;list-style: none;position:relative;top:0;left:0;}
+#bot_an ul li{width:50px;height:50px;background:#F00;cursor:pointer;opacity:0.6;border-radius:50px;-moz-border-radius:50px;-webkit-border-radius:50px;position:absolute;}
+
+#bot_1{position:relative;top:50px;left:200px;}
+#bot_2{position:relative;top:240px;left:600px;}
+#bot_3{position:relative;top:90px;left:372px;}
+#bot_4{position:relative;top:150px;left:460px;}
+#bot_5{position:relative;top:270px;left:245px;}
+
+#an_todos{position:relative;top:0;left:0;}
+.an_to{background:url(../imagenes/fondo1.png);display:none;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
+.an_to h3{ letter-spacing:0.08em;color:#FFF;font-size:1.5em;font-weight:100;line-height:1.3em;}
+.an_to p{color:#F7FE2E;font-size:1em;margin:15px 0px 0px 0px;}
+
+#an_1{width:420px;height:40px;padding:15px;position:absolute;top:80px;left:75px;}
+#an_2{width:400px;height:60px;padding:15px;position:absolute;top:280px;left:-20px;}
+#an_3{width:600px;height:120px;padding:15px;position:absolute;top:150px;left:-90px;}
+#an_4{width:350px;height:60px;padding:15px;position:absolute;top:190px;left:-100px;}
+#an_5{width:350px;height:40px;padding:15px;position:absolute;top:210px;left:120px;}
+
+.anali_to{background:url(../imagenes/fondo1.png);display:none;}
+.anali_to h3{ letter-spacing:0.08em;color:#FFF;font-size:1.3em;font-weight:100;line-height:1.3em;}
+.anali_to p{color:#F7FE2E;font-size:1em;margin:5px 0px 15px 0px;}
+
+#anali_1{width:720px;height:175px;padding:30px;position:absolute;top:235px;left:10px;}
+#anali_2{width:720px;height:130px;padding:30px;position:absolute;top:280px;left:10px;}
+#anali_2 h3{margin:0px 0px 10px 0px;}
+#anali_3{width:700px;height:375px;padding:30px;position:absolute;top:25px;left:20px;}
+
+
+#bots_to{width:20px;height:20px;position: absolute;top:0;left:0;}
+#bots_to ul{width:20px;height:20px;list-style:none;position:relative;top:0;left:0;}
+#bots_to ul li{width:20px;height:20px;cursor:pointer;line-height:20px;text-align: center;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+#bots4{position:absolute;top:560px;left:880px;background:#333;color:#FFF;}
+#bots3{position:absolute;top:560px;left:840px;background:#333;color:#FFF;}
+#bots2{position:absolute;top:560px;left:800px;background:#333;color:#FFF;}
+#bots1{position:absolute;top:560px;left:760px;background:#333;color:#FFF;}
+
